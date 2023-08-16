@@ -1,0 +1,12 @@
+.box-toast { 
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  background: #ff6952;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 0 4px 4px 0;
+  padding: 12px;
+  color: #fff;
+  top: 10%;
+}

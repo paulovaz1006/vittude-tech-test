@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Fira Sans;
+}
+.box-default {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  max-width: 1440px;
+  padding: 16px 32px;
+}
+.align-default {
+  justify-content: center!important;
+  align-items: center!important;
+}

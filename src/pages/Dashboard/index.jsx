@@ -1,12 +1,12 @@
 import Title from "../../components/Titles";
-import 'style.scss'
+import './style.scss'
 const Dashboard = () => {
   const userName = localStorage.getItem('userName');
   const userImage = localStorage.getItem('userImg');
   
   return (
     <div className="box-dashboard">
-      <img src={userImage} />
+      <img src={userImage} alt="user" />
       <Title>{userName}</Title>
   </div>
   )
